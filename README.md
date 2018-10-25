@@ -20,8 +20,7 @@ Time: 2 hrs
 
 # Post Submission
 - A mentor will review your submission, and will open an issue with review comments.
-- The issue will include review comments.
-- You must resolve all the review comments, and re-submit the assignment.
+- You must resolve all the review comments, and re-submit the assignment, by following the steps in Submission
 
 # Completion
 - Submission does not mean that the assignment is complete
