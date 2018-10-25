@@ -8,7 +8,7 @@ Time: 2 hrs
 1. Configure Gitlab-CI, such that, every push to master branch is deployed to heroku
 
 # Prerequisites
-1. Ensure NodeJS, NPM and Git is installed
+1. Ensure NodeJS, NPM and Git are installed
 1. Ensure a Text Editor is installed. Choose one of Sublime Text 3, Visual Studio Code, or Atom
 
 # Setup
