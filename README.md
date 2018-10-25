@@ -1,6 +1,6 @@
 # Assignment 1
 
-Time: 2 rs
+Time: 2 hrs
 
 # Statement
 1. Create a Web Server with NodeJS
