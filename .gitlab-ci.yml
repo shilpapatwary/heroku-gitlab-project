@@ -10,4 +10,5 @@ heroku-deployment:
     script:
      - npm install --production
      - (echo "machine git.heroku.com"; echo " username shilpa.patwary13@gmail.com"; echo " password $HEROKU_PASSWORD") > ~/.netrc
+     - git pull https://git.heroku.com/first-express-app-10252018.git master
      - git push https://git.heroku.com/first-express-app-10252018.git master
