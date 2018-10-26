@@ -8,6 +8,5 @@ production:
     stage: production
     script:
      - npm install --production
-     - apt-get update -qy
      - (echo "machine git.heroku.com"; echo " username shilpa.patwary13@gmail.com"; echo " password $HEROKU_PASSWORD") > ~/.netrc
      - git push https://git.heroku.com/hello-express-cicd-261018.git HEAD:master
