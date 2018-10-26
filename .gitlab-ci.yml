@@ -10,4 +10,6 @@ heroku-deployment:
     script:
      - npm install --production
      - (echo "machine git.heroku.com"; echo " username shilpa.patwary13@gmail.com"; echo " password $HEROKU_PASSWORD") > ~/.netrc
+     - git add . 
+     - git commit -m "updating" 
      - git push -f https://git.heroku.com/hello-express-cicd-261018.git master
