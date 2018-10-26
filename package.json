@@ -1,0 +1,22 @@
+{
+  "name": "01-ci-cd-heroku-gitlab",
+  "version": "1.0.0",
+  "description": "ci cd heroku express app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab-sapient.stackroute.in/shilpa.patwary/01-ci-cd-heroku-gitlab.git"
+  },
+  "author": "Shilpa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "heroku": "^7.18.3"
+  }
+}
