@@ -1,15 +1,13 @@
 image: node:10.12.0
 
 stages:
-  - build
-  - test
-  - deploy
+  - production
 
-heroku-deployment:
-    stage: deploy
+production:
+    type:deploy
+    stage: production
     script:
      - npm install --production
+     - apt-get update -qy
      - (echo "machine git.heroku.com"; echo " username shilpa.patwary13@gmail.com"; echo " password $HEROKU_PASSWORD") > ~/.netrc
-     - git add . 
-     - git commit -m "updating" 
      - git push -f https://git.heroku.com/hello-express-cicd-261018.git master
