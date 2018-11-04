@@ -1,5 +1,9 @@
 # Assignment 1
 
+
+Heroku repository : https://git.heroku.com/hello-express-cicd-261018.git
+Heroku app        : https://hello-express-cicd-261018.herokuapp.com/
+
 Time: 2 hrs
 
 # Statement
